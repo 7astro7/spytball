@@ -1,4 +1,3 @@
-
 import getpass
 
 try:
@@ -12,9 +11,9 @@ except KeyError:
     pass
 
 SOURCE_DIR_LIST = [
-        'bash',
-        ]
-VERSION = .01
+    "bash",
+]
+VERSION = 0.01
 
 GPG_CONFIG_DIR = None
 LAST_BACKUP_DIR = None

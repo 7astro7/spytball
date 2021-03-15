@@ -1,4 +1,3 @@
-
 """
 Usage:
     spytball [OPTIONS] [FILE1, FILE2, ...]
@@ -26,6 +25,7 @@ from docopt import docopt
 from constants import VERSION
 import sys
 
+
 def main():
     """
     Main method
@@ -36,13 +36,14 @@ def main():
         print("Exiting")
         sys.exit(1)
 
+
 def cli():
     """
     Make an encrypted backup, a spytball. Remote sync not
     integrated yet.
     """
 
-    args = docopt(__doc__, version = f"spytball v%s" % VERSION)
+    args = docopt(__doc__, version=f"spytball v%s" % VERSION)
     print(VERSION)
 
 
