@@ -1,4 +1,6 @@
 
+![UC](Under_Construction_Bar.gif)
+
 # spytball
 An encrypted archiving utility written in Python, spytball is a package designed to create encrypted backups. 
 spytball relies on python-gnupg and it's modular: making the backup can be separated from encryption 
@@ -12,3 +14,4 @@ pass
 
 ## Contributing
 This project welcomes contributions!
+
