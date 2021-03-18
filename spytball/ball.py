@@ -1,14 +1,14 @@
 import tarfile
 import os
 from datetime import datetime
-from constants import (
+from .constants import (
     SOURCE_DIR_LIST,
 )
 
 # verify integrity of tarball
 
 
-class Backup:
+class Archive:
     """Make a tarball. Archive isn't encrypted yet."""
 
     def __init__(

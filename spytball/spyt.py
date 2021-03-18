@@ -11,7 +11,8 @@ class GPG(gnupg.GPG):
         self,
         recursive: bool = True,
         recipients: list = None,
-        no_overwrite: bool = True   # when encrypting files, make a copy first. preserve directory structure
+        # option to not append .gpg to end of names
+        overwrite: bool = False # when encrypting files, make a copy first. preserve directory structure
     ):
         super().__init__()
         self.recursive = recursive

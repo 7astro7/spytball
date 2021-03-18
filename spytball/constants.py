@@ -1,4 +1,5 @@
 import getpass
+import os
 
 try:
     USER = getpass.getuser()
@@ -13,7 +14,7 @@ except KeyError:
 SOURCE_DIR_LIST = [
     "bash",
 ]
-VERSION = 0.01
+VERSION = 0.1
 
 GPG_CONFIG_DIR = None
 LAST_BACKUP_DIR = None

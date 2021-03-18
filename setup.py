@@ -1,5 +1,6 @@
 
-from constants import VERSION
+from spytball.constants import VERSION
+from setuptools import setup
 
 setup(
     name = "spytball",
@@ -16,8 +17,8 @@ setup(
     long_description = "", # do this
     license = "GPLv3",
     url = "https://github.com/7astro7/spytball",
-    package_data = None,
-    install_requires = ["docopt",""] # add to this
+#    package_data = None,
+    install_requires = ["docopt",], # add to this
     python_requires = ">=3.8", # test this
     classifiers = [
         "Development Status :: -- :: Dev1",
